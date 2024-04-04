@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: sample-app-template
-  title: Create a sample application with a CI pipeline
+  name: rhdh-demo-sample-app-template
+  title: Live RHDH Tutorial: Building an App with CI/CD Pipeline
   description: Provides the sample code and CI pipeline to build and deploy a sample application on OpenShift.
   tags:
     - recommended
@@ -20,7 +20,7 @@ spec:
         app_name:
           title: Repository Name
           type: string
-          default: "sample-app"
+          default: "rhdh-demo-app"
         description:
           title: Description
           type: string
